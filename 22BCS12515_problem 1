@@ -20,9 +20,9 @@ class Employee {
 public class EmployeeSorter {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("Alice", 30, 50000));
-        employees.add(new Employee("Bob", 25, 60000));
-        employees.add(new Employee("Charlie", 35, 40000));
+        employees.add(new Employee("Madhu", 30, 50000));
+        employees.add(new Employee("Namratha", 25, 60000));
+        employees.add(new Employee("Abhiram", 35, 40000));
 
       
         employees.sort(Comparator.comparing(emp -> emp.name));
